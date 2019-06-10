@@ -39,8 +39,8 @@ int _us_get_distance()
 
 void setup()
 { 
-	float servo_min = 26.0;  // (26/1024)*20ms à 0.5 ms  (-90‹)
-	float servo_max = 123.0; // (123/1024)*20ms à 2.4 ms (+90‹)
+	float servo_min = 26.0;  // (26/1024)*20ms ï¿½ï¿½ 0.5 ms  (-90ï¿½ï¿½)
+	float servo_max = 123.0; // (123/1024)*20ms ï¿½ï¿½ 2.4 ms (+90ï¿½ï¿½)
 	servo_coeff_a = (servo_max-servo_min)/180.0;
 	servo_coeff_b = (servo_max+servo_min)/2.0;
 	ledcSetup(0, 50, 10);  // 0ch 50 Hz 10bit resolution
@@ -83,4 +83,7 @@ void loop() {
 }
 */
 
-
+/*
+ä¹…ä¿
+* /
+ */

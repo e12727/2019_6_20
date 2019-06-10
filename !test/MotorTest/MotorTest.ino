@@ -138,7 +138,7 @@ void setup()
     Serial.begin(115200);
 
     // Initialize Bluetooth
-	SerialBT.begin("ESP32");
+	SerialBT.begin("Kubo3rd");
 
     // Initialize motor
     MOTOR_init();
@@ -185,5 +185,3 @@ void loop()
         }
     }
 }
-
-
